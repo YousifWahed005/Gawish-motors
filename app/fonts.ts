@@ -10,11 +10,11 @@ export const font = localFont({
 export const arabicFont = localFont({
   src: [
     {
-      path: "./fonts/Cairo-Regular.woff2",
+      path: "./fonts/Changa-Regular.woff2",
       weight: "400",
       style: "normal",
     },
-    { path: "./fonts/Cairo-Bold.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/Changa-Bold.woff2", weight: "700", style: "normal" },
   ],
   variable: "--font-arabic",
   display: "swap",
