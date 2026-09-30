@@ -1,0 +1,566 @@
+{
+  "en": {
+    "brand": {
+      "name": "Gawish Motors",
+      "tagline": "Your next car. Our lasting commitment.",
+      "logo": "/images/logo.svg"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Zagazig · Mansoura bus station · Opposite the new station",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Zagazig+Mansoura+bus+station",
+      "hours": "Daily · 12 noon to 12 midnight",
+      "instagram": "",
+      "whatsapp": ""
+    },
+    "hero": {
+      "eyebrow": "GAWISH MOTORS · EST. 2007",
+      "title": "More choice.",
+      "accent": "One destination.",
+      "description": "Electric, petrol, or hybrid. Find your next new car at Gawish Motors in Zagazig, with competitive prices, bank finance, and support beyond the handover.",
+      "image": "/images/hero-car.jpg",
+      "imageAlt": "Black Porsche Panamera photographed on the road",
+      "caption": "A NEW CHAPTER STARTS HERE",
+      "cta": "Find your next car"
+    },
+    "modelsHeading": "Every drive. Every possibility.",
+    "models": [
+      {
+        "name": "A new kind of energy",
+        "category": "ELECTRIC",
+        "description": "Explore electric models and find the right fit for your everyday journeys.",
+        "image": "/images/electric-car.jpg",
+        "imageAlt": "White Tesla Model 3 parked near coastal hills"
+      },
+      {
+        "name": "The familiar, reimagined",
+        "category": "PETROL",
+        "description": "A wide choice of petrol-powered cars, from city companions to premium drives.",
+        "image": "/images/petrol-car.jpg",
+        "imageAlt": "Grey BMW sedan photographed from the front"
+      },
+      {
+        "name": "The best of both worlds",
+        "category": "HYBRID",
+        "description": "Discover hybrid choices that bring two power sources into one confident drive.",
+        "image": "/images/hybrid-car.jpg",
+        "imageAlt": "White BMW i8 hybrid sports car with its doors open"
+      }
+    ],
+    "offers": {
+      "eyebrow": "YOUR NEXT OPPORTUNITY",
+      "title": "The right car.\nThe right deal.",
+      "description": "Talk to our team about current offers and the bank financing options that suit your budget. We help you compare your choices clearly, in one place.",
+      "label": "SHOWROOM SPECIALS",
+      "detail": "Vehicle availability, offer terms, and bank approval are confirmed by our team.",
+      "image": "/images/offer-car.jpg",
+      "cta": "Ask about current offers",
+      "imageAlt": "Black Porsche Panamera photographed on the road"
+    },
+    "why": {
+      "title": "A better price.\nA lasting relationship.",
+      "description": "Our difference is the confidence we give you: competitive prices, clear guidance, and after-sales support you can return to.",
+      "items": [
+        {
+          "title": "Competitive prices",
+          "description": "Compare a wide range of new cars and choose the right value for your needs."
+        },
+        {
+          "title": "Bank finance across Egypt",
+          "description": "We help you explore installment options through all Egyptian banks, subject to each bank’s terms and approval."
+        },
+        {
+          "title": "Support after the sale",
+          "description": "Licensing assistance, insurance arrangements, and follow-up when you have a problem with your car."
+        }
+      ],
+      "eyebrow": "WHY GAWISH MOTORS"
+    },
+    "testDrive": {
+      "title": "See it. Feel it.\nMake it yours.",
+      "description": "Visit our Zagazig showroom to compare the cars in person and ask about arranging a test drive.",
+      "cta": "Plan your showroom visit",
+      "eyebrow": "MEET YOUR NEXT CAR"
+    },
+    "testimonials": {
+      "title": "Your experience matters.",
+      "items": [
+        {
+          "quote": "This space is reserved for a verified customer review.",
+          "name": "Customer stories",
+          "detail": "AWAITING VERIFIED REVIEWS"
+        },
+        {
+          "quote": "Have you bought from Gawish Motors? Share your experience with our team.",
+          "name": "Tell us your story",
+          "detail": "YOUR FEEDBACK MATTERS"
+        }
+      ],
+      "eyebrow": "OUR CUSTOMERS",
+      "description": "Real stories belong here. Customer reviews will be added with their owners’ permission."
+    },
+    "app": {
+      "title": "Your showroom.\nIn your pocket.",
+      "description": "Our mobile experience is on its way. Soon you can explore models and keep in touch wherever the road takes you.",
+      "status": "COMING SOON",
+      "image": "/images/app.svg",
+      "iosUrl": "",
+      "androidUrl": "",
+      "imageAlt": "Illustrated preview of the Gawish Motors mobile app"
+    },
+    "faq": {
+      "title": "A few things you might ask.",
+      "items": [
+        {
+          "question": "Which types of cars are available?",
+          "answer": "We offer new electric, petrol, and hybrid cars across different brands. Contact the showroom to confirm the exact model, specification, and current availability."
+        },
+        {
+          "question": "Can I buy in bank installments?",
+          "answer": "Bank financing is available through Egyptian banks. Down payments, installment periods, rates, and eligibility depend on the bank and your application."
+        },
+        {
+          "question": "What warranty will my car have?",
+          "answer": "Warranty coverage and conditions vary by vehicle and its source. Our team explains the applicable warranty before purchase."
+        },
+        {
+          "question": "What support do you offer after purchase?",
+          "answer": "We provide licensing assistance through a representative, help with insurance arrangements, and follow-up on faults or problems with the vehicle."
+        },
+        {
+          "question": "Can you help me change my car later?",
+          "answer": "Yes. Ask our team about the vehicle exchange service and the available options when you are ready for your next car."
+        }
+      ],
+      "eyebrow": "GOOD TO KNOW"
+    },
+    "footer": {
+      "text": "Gawish Motors for vehicle trading and imports. Your new-car destination in Zagazig.",
+      "copyright": "Gawish Motors. All rights reserved."
+    },
+    "about": {
+      "eyebrow": "ABOUT GAWISH MOTORS",
+      "title": "Many cars.\nOne trusted destination.",
+      "description": "Gawish Motors for vehicle trading and imports brings new cars of different types together in one place, so you can compare, choose, and buy with confidence.",
+      "image": "/images/story-car.jpg",
+      "imageAlt": "Grey BMW photographed on a tree-lined road",
+      "since": "OUR STORY BEGAN",
+      "year": "2007"
+    },
+    "story": {
+      "title": "Our story",
+      "description": "Founded in 2007, Gawish Motors began with a clear idea: make choosing a new car easier. Today, we continue to bring more choices together, with competitive pricing, bank financing support, and a relationship that continues after the sale."
+    },
+    "principles": {
+      "eyebrow": "WHAT DRIVES US",
+      "title": "A clear purpose.\nA shared direction.",
+      "items": [
+        {
+          "title": "Our vision",
+          "description": "Guide every customer through more than one type of car in a single destination, so they can choose what is best for them."
+        },
+        {
+          "title": "Our mission",
+          "description": "Offer the lowest possible prices and help customers find the bank financing options that best suit their needs."
+        },
+        {
+          "title": "Our goals",
+          "description": "Enable buyers to see and compare a wide choice of cars in one place before making their decision."
+        },
+        {
+          "title": "Our values",
+          "description": "Quality, trust, transparency, and customer satisfaction. More than 20 years of confidence and experience in the automotive market."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "OUR SERVICES",
+      "title": "More than the keys.",
+      "description": "From finding your new car to changing it later, we stay with you through the details.",
+      "items": [
+        {
+          "title": "New-car sales",
+          "description": "New electric, petrol, and hybrid models across different makes and specifications."
+        },
+        {
+          "title": "Finance and installments",
+          "description": "Bank installment options through all Egyptian banks, subject to approval and the applicable terms."
+        },
+        {
+          "title": "Licensing assistance",
+          "description": "A representative helps with the vehicle licensing process and its requirements."
+        },
+        {
+          "title": "Insurance arrangements",
+          "description": "We help you arrange suitable vehicle insurance and understand the available options."
+        },
+        {
+          "title": "Vehicle exchange",
+          "description": "When you are ready to change your car, talk to us about our exchange service."
+        }
+      ]
+    },
+    "ownership": {
+      "eyebrow": "CONFIDENCE AT EVERY STEP",
+      "title": "Before you buy.\nAfter you drive.",
+      "items": [
+        {
+          "title": "Quality and warranty",
+          "description": "We explain the source, specification, and applicable warranty of each car. Coverage and conditions vary by vehicle."
+        },
+        {
+          "title": "Financing solutions",
+          "description": "Installment financing is available through all Egyptian banks. Our team helps you compare available plans, with final approval and terms set by the bank."
+        },
+        {
+          "title": "After-sales support",
+          "description": "Licensing support with a representative, insurance assistance, and follow-up if a fault or problem arises with your car."
+        }
+      ]
+    },
+    "partners": {
+      "eyebrow": "OUR PARTNERS",
+      "title": "Your bank.\nYour possibilities.",
+      "description": "We help you explore financing through all Egyptian banks. Talk to our team about your preferred bank and the available payment plans.",
+      "label": "ALL EGYPTIAN BANKS",
+      "detail": "Financing eligibility, rates, and terms are subject to the relevant bank’s approval."
+    },
+    "contactHeading": {
+      "eyebrow": "COME SAY HELLO",
+      "title": "Your next chapter\nstarts in Zagazig.",
+      "description": "Visit Gawish Motors opposite the new Mansoura bus station. Our team is ready to help you compare your choices.",
+      "locationLabel": "OUR SHOWROOM",
+      "hoursLabel": "OPENING HOURS",
+      "phoneLabel": "CALL US",
+      "emailLabel": "EMAIL",
+      "cta": "Get directions"
+    },
+    "seo": {
+      "title": "Gawish Motors | New cars, imports & bank finance in Zagazig",
+      "description": "Gawish Motors, established in 2007. Explore electric, petrol, and hybrid new cars in Zagazig, Egyptian bank financing, licensing and after-sales support."
+    },
+    "ui": {
+      "brandCaption": "NEW CARS. LASTING CONFIDENCE.",
+      "navModels": "Our cars",
+      "navOffers": "Offers",
+      "navAbout": "About us",
+      "navServices": "Services",
+      "talk": "Visit us",
+      "navLabel": "Main navigation",
+      "homeLabel": "Home",
+      "collectionEyebrow": "THE COLLECTION",
+      "match": "Find your match",
+      "explore": "Explore options",
+      "inquiry": "Hello, I would like to learn about your cars:",
+      "visitInquiry": "Hello, I would like to plan a showroom visit.",
+      "heroNote": "A DRIVE THAT FEELS LIKE YOU",
+      "heroWord": "FORWARD",
+      "collectionCaption": "GAWISH / COLLECTION",
+      "tickerFirst": "MORE CHOICE.",
+      "tickerSecond": "ONE DESTINATION.",
+      "tickerThird": "GAWISH MOTORS.",
+      "offerWord": "NEXT\nMOVE.",
+      "reviewsNote": "YOUR JOURNEY IS OUR STORY.",
+      "iosDownload": "Download for iOS",
+      "androidDownload": "Get it on Android",
+      "iosSoon": "App Store · Coming soon",
+      "androidSoon": "Google Play · Coming soon",
+      "moreQuestions": "Have another question?",
+      "footerVisit": "Come say hello.",
+      "footerTalk": "Start a conversation.",
+      "socialLabel": "Instagram",
+      "whatsappLabel": "WhatsApp",
+      "backTop": "Back to top ↑",
+      "admin": "Admin",
+      "photoNote": "Photos show representative models. Ask our team about current stock.",
+      "switchLight": "Switch to light mode",
+      "switchDark": "Switch to dark mode",
+      "skip": "Skip to content",
+      "languageLabel": "Switch language",
+      "sinceLabel": "ESTABLISHED IN ZAGAZIG"
+    }
+  },
+  "ar": {
+    "brand": {
+      "name": "جاويش موتورز",
+      "tagline": "سيارتك الجديدة. ثقتنا المستمرة.",
+      "logo": "/images/logo.svg"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "الزقازيق — موقف المنصورة — أمام الموقف الجديد",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Zagazig+Mansoura+bus+station",
+      "hours": "يوميًا · من ١٢ ظهرًا إلى ١٢ منتصف الليل",
+      "instagram": "",
+      "whatsapp": ""
+    },
+    "hero": {
+      "eyebrow": "جاويش موتورز · منذ ٢٠٠٧",
+      "title": "اختيارات أكتر.",
+      "accent": "في مكان واحد.",
+      "description": "كهرباء، بنزين، أو هجين. اختار سيارتك الزيرو من جاويش موتورز في الزقازيق، بأسعار تنافسية، وأنظمة تقسيط بنكية، ومتابعة بتكمل معاك بعد الشراء.",
+      "image": "/images/hero-car.jpg",
+      "imageAlt": "صورة حقيقية لسيارة بورشه باناميرا سوداء على الطريق",
+      "caption": "بداية جديدة. وطريق على اختيارك.",
+      "cta": "اختار سيارتك الجديدة"
+    },
+    "modelsHeading": "كل الأنواع. وكل الاحتمالات.",
+    "models": [
+      {
+        "name": "طاقة جديدة لكل مشوار",
+        "category": "كهربائية",
+        "description": "اكتشف موديلات كهربائية تناسب مشاويرك اليومية وطريقتك في القيادة.",
+        "image": "/images/electric-car.jpg",
+        "imageAlt": "سيارة تسلا موديل ٣ بيضاء بجوار تلال ساحلية"
+      },
+      {
+        "name": "قيادة تعرفها. باختيارات أكتر.",
+        "category": "بنزين",
+        "description": "اختيارات متنوعة من سيارات البنزين، من سيارات المدينة للموديلات الفاخرة.",
+        "image": "/images/petrol-car.jpg",
+        "imageAlt": "سيارة بي إم دبليو رمادية مصورة من الأمام"
+      },
+      {
+        "name": "أفضل ما في العالمين.",
+        "category": "هجين",
+        "description": "اكتشف اختيارات الهجين اللي بتجمع مصدرين للطاقة في تجربة قيادة واحدة.",
+        "image": "/images/hybrid-car.jpg",
+        "imageAlt": "سيارة بي إم دبليو آي ٨ هجينة بيضاء بأبواب مفتوحة"
+      }
+    ],
+    "offers": {
+      "eyebrow": "فرصتك لاختيار أفضل",
+      "title": "السيارة المناسبة.\nوالعرض المناسب.",
+      "description": "اسأل فريقنا عن العروض الحالية وأنظمة التمويل البنكي المناسبة لميزانيتك. هنساعدك تقارن اختياراتك بوضوح، وكل ده في مكان واحد.",
+      "label": "عروض المعرض",
+      "detail": "توافر السيارات وشروط العروض والموافقة البنكية يتم تأكيدها مع فريقنا.",
+      "image": "/images/offer-car.jpg",
+      "cta": "اسأل عن العروض الحالية",
+      "imageAlt": "سيارة بورشه باناميرا سوداء مصورة على الطريق"
+    },
+    "why": {
+      "title": "سعر أفضل.\nوعلاقة بتكمل.",
+      "description": "اللي بيميزنا هو الثقة اللي بنديها للعميل: أسعار تنافسية، ومساعدة واضحة في الاختيار، وخدمة ما بعد البيع تقدر ترجع لها.",
+      "items": [
+        {
+          "title": "أسعار تنافسية",
+          "description": "قارن بين مجموعة كبيرة من السيارات الزيرو، واختار القيمة الأنسب لاحتياجاتك."
+        },
+        {
+          "title": "تقسيط بنكي في كل مصر",
+          "description": "بنساعدك تختار نظام تقسيط من خلال جميع بنوك مصر، وفق شروط وموافقة كل بنك."
+        },
+        {
+          "title": "متابعة بعد البيع",
+          "description": "مساعدة في الترخيص والتأمين، ومتابعة أي عطل أو مشكلة تواجهك في السيارة."
+        }
+      ],
+      "eyebrow": "لماذا جاويش موتورز؟"
+    },
+    "testDrive": {
+      "title": "شوفها. جرّب إحساسها.\nواختارها بثقة.",
+      "description": "زور معرضنا في الزقازيق علشان تقارن السيارات بنفسك وتسأل عن ترتيب تجربة قيادة.",
+      "cta": "رتّب زيارتك للمعرض",
+      "eyebrow": "قابل سيارتك الجديدة"
+    },
+    "testimonials": {
+      "title": "تجربتك تهمّنا.",
+      "items": [
+        {
+          "quote": "هذه المساحة مخصصة لتقييم حقيقي من أحد عملائنا بعد التحقق منه.",
+          "name": "تجارب عملائنا",
+          "detail": "في انتظار تقييمات موثقة"
+        },
+        {
+          "quote": "اشتريت من جاويش موتورز؟ شارك تجربتك مع فريقنا.",
+          "name": "احكِ لنا تجربتك",
+          "detail": "رأيك يفرق معانا"
+        }
+      ],
+      "eyebrow": "آراء عملائنا",
+      "description": "المكان ده لتجارب حقيقية. بنضيف تقييمات عملائنا بعد موافقتهم على نشرها."
+    },
+    "app": {
+      "title": "معرضك.\nفي جيبك.",
+      "description": "تجربتنا على الموبايل قريبًا. هتقدر تستكشف الموديلات وتتواصل معانا أينما يأخذك الطريق.",
+      "status": "قريبًا",
+      "image": "/images/app-ar.svg",
+      "iosUrl": "",
+      "androidUrl": "",
+      "imageAlt": "تصور توضيحي لتطبيق جاويش موتورز على الهاتف"
+    },
+    "faq": {
+      "title": "كل اللي تحب تعرفه.",
+      "items": [
+        {
+          "question": "إيه أنواع السيارات المتاحة؟",
+          "answer": "بنقدم سيارات زيرو كهربائية وبنزين وهجين من علامات تجارية مختلفة. تواصل مع المعرض لتأكيد الموديل والمواصفات والتوافر الحالي."
+        },
+        {
+          "question": "هل فيه تقسيط بنكي؟",
+          "answer": "متاح تمويل وتقسيط من خلال بنوك مصر. المقدم، ومدة التقسيط، والعائد، وشروط القبول تختلف حسب البنك وطلب التمويل."
+        },
+        {
+          "question": "إيه ضمان السيارة؟",
+          "answer": "الضمان وشروطه بيختلفوا حسب كل سيارة ومصدرها. فريقنا بيوضح لك الضمان المطبق قبل إتمام الشراء."
+        },
+        {
+          "question": "إيه خدمات ما بعد البيع؟",
+          "answer": "بنساعدك في الترخيص مع مندوب، وترتيبات التأمين، وبنتابع معاك أي عطل أو مشكلة في السيارة."
+        },
+        {
+          "question": "هل ممكن تساعدوني أغيّر عربيتي بعدين؟",
+          "answer": "أيوه. اسأل فريقنا عن خدمة تغيير السيارة والاختيارات المتاحة لما تكون جاهز لسيارتك التالية."
+        }
+      ],
+      "eyebrow": "أسئلة تهمّك"
+    },
+    "footer": {
+      "text": "شركة جاويش موتورز لتجارة واستيراد السيارات. وجهتك للسيارات الزيرو في الزقازيق.",
+      "copyright": "جاويش موتورز. جميع الحقوق محفوظة."
+    },
+    "about": {
+      "eyebrow": "من نحن",
+      "title": "سيارات أكتر.\nوجهة تثق فيها.",
+      "description": "شركة جاويش موتورز لتجارة واستيراد السيارات بتجمع أنواع وموديلات مختلفة من السيارات الزيرو في مكان واحد، علشان تقدر تقارن وتختار وتشتري بثقة.",
+      "image": "/images/story-car.jpg",
+      "imageAlt": "سيارة بي إم دبليو رمادية على طريق تحيط به الأشجار",
+      "since": "قصتنا بدأت",
+      "year": "٢٠٠٧"
+    },
+    "story": {
+      "title": "قصتنا",
+      "description": "اتأسست جاويش موتورز عام ٢٠٠٧ بفكرة واضحة: نسهل اختيار السيارة الجديدة. ومن وقتها بنجمع اختيارات أكتر في مكان واحد، بأسعار تنافسية، ودعم في التمويل البنكي، وعلاقة بتستمر بعد البيع."
+    },
+    "principles": {
+      "eyebrow": "اللي بيحركنا",
+      "title": "هدف واضح.\nوطريق مشترك.",
+      "items": [
+        {
+          "title": "رؤيتنا",
+          "description": "توجيه العميل لأكثر من نوع سيارة في مكان واحد، بحيث يقدر يقارن ويختار الأفضل له."
+        },
+        {
+          "title": "رسالتنا",
+          "description": "توفير أقل أسعار ممكنة، ومساعدة العميل في الوصول لأفضل أنظمة بنكية تناسب احتياجاته."
+        },
+        {
+          "title": "أهدافنا",
+          "description": "تمكين المشتري من رؤية ومقارنة مجموعة واسعة من السيارات في مكان واحد قبل اتخاذ قراره."
+        },
+        {
+          "title": "قيمنا",
+          "description": "الجودة، والثقة، والشفافية، ورضا العميل. ثقة وخبرة لأكثر من ٢٠ عامًا في سوق السيارات."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "خدماتنا",
+      "title": "خدمتنا أكبر من المفتاح.",
+      "description": "من اختيار سيارتك الجديدة لحد تغييرها بعدين، بنفضل معاك في التفاصيل.",
+      "items": [
+        {
+          "title": "بيع سيارات زيرو",
+          "description": "سيارات كهربائية وبنزين وهجين من علامات تجارية ومواصفات مختلفة."
+        },
+        {
+          "title": "تمويل وتقسيط",
+          "description": "أنظمة تقسيط بنكي من خلال جميع بنوك مصر، وفق شروط وموافقة البنك."
+        },
+        {
+          "title": "مساعدة في الترخيص",
+          "description": "مندوب يساعدك في إجراءات ومتطلبات ترخيص السيارة."
+        },
+        {
+          "title": "ترتيبات التأمين",
+          "description": "بنساعدك ترتب تأمين مناسب لسيارتك وتفهم الاختيارات المتاحة."
+        },
+        {
+          "title": "خدمة تغيير السيارة",
+          "description": "لما تحب تغيّر سيارتك، كلمنا عن خدمة التغيير والاختيارات المناسبة لك."
+        }
+      ]
+    },
+    "ownership": {
+      "eyebrow": "ثقة في كل خطوة",
+      "title": "قبل ما تشتري.\nوبعد ما تسوق.",
+      "items": [
+        {
+          "title": "الجودة والضمان",
+          "description": "بنوضح مصدر كل سيارة ومواصفاتها والضمان المطبق عليها. التغطية والشروط تختلف حسب كل سيارة."
+        },
+        {
+          "title": "حلول التمويل والتقسيط",
+          "description": "متاح تقسيط بنكي في جميع بنوك مصر. بنساعدك تقارن الخطط المتاحة، والموافقة النهائية والشروط بتكون من البنك."
+        },
+        {
+          "title": "خدمة ما بعد البيع",
+          "description": "خدمة الترخيص مع مندوب، والمساعدة في التأمين، ومتابعة أي عطل أو مشكلة تظهر في السيارة."
+        }
+      ]
+    },
+    "partners": {
+      "eyebrow": "شركاؤنا",
+      "title": "بنكك.\nواختياراتك.",
+      "description": "بنساعدك تستكشف حلول التمويل من خلال جميع بنوك مصر. كلم فريقنا عن البنك اللي تفضله وخطط السداد المتاحة.",
+      "label": "جميع بنوك مصر",
+      "detail": "الأهلية والعائد وشروط التمويل تخضع لموافقة البنك المعني."
+    },
+    "contactHeading": {
+      "eyebrow": "تواصل معنا",
+      "title": "بدايتك الجديدة\nمن الزقازيق.",
+      "description": "زور جاويش موتورز أمام الموقف الجديد بموقف المنصورة. فريقنا جاهز يساعدك تقارن وتختار.",
+      "locationLabel": "عنوان المعرض",
+      "hoursLabel": "مواعيد العمل",
+      "phoneLabel": "اتصل بنا",
+      "emailLabel": "البريد الإلكتروني",
+      "cta": "افتح الاتجاهات"
+    },
+    "seo": {
+      "title": "جاويش موتورز | سيارات زيرو واستيراد وتقسيط بنكي في الزقازيق",
+      "description": "جاويش موتورز منذ ٢٠٠٧. سيارات كهربائية وبنزين وهجين في الزقازيق، وتقسيط من خلال بنوك مصر، وترخيص وتأمين وخدمة ما بعد البيع."
+    },
+    "ui": {
+      "brandCaption": "سيارات زيرو. وثقة بتكمل.",
+      "navModels": "سياراتنا",
+      "navOffers": "العروض",
+      "navAbout": "من نحن",
+      "navServices": "خدماتنا",
+      "talk": "زورنا",
+      "navLabel": "التنقل الرئيسي",
+      "homeLabel": "الصفحة الرئيسية",
+      "collectionEyebrow": "سياراتنا والعلامات التجارية",
+      "match": "اختار الأنسب لك",
+      "explore": "اكتشف الاختيارات",
+      "inquiry": "أهلًا، أريد الاستفسار عن سياراتكم:",
+      "visitInquiry": "أهلًا، أريد ترتيب زيارة للمعرض.",
+      "heroNote": "قيادة على طريقتك",
+      "heroWord": "انطلق",
+      "collectionCaption": "جاويش / سياراتنا",
+      "tickerFirst": "اختيارات أكتر.",
+      "tickerSecond": "في مكان واحد.",
+      "tickerThird": "جاويش موتورز.",
+      "offerWord": "خطوتك\nالجديدة.",
+      "reviewsNote": "رحلتك هي قصتنا.",
+      "iosDownload": "تحميل لأجهزة آيفون",
+      "androidDownload": "تحميل لأجهزة أندرويد",
+      "iosSoon": "App Store · قريبًا",
+      "androidSoon": "Google Play · قريبًا",
+      "moreQuestions": "عندك سؤال تاني؟",
+      "footerVisit": "تعال نتقابل.",
+      "footerTalk": "خلينا نتكلم.",
+      "socialLabel": "إنستجرام",
+      "whatsappLabel": "واتساب",
+      "backTop": "العودة للأعلى ↑",
+      "admin": "الإدارة",
+      "photoNote": "الصور لموديلات توضيحية. اسأل فريقنا عن السيارات المتاحة حاليًا.",
+      "switchLight": "تفعيل الوضع الفاتح",
+      "switchDark": "تفعيل الوضع الداكن",
+      "skip": "انتقل إلى المحتوى",
+      "languageLabel": "تغيير اللغة",
+      "sinceLabel": "منذ البداية في الزقازيق"
+    }
+  }
+}

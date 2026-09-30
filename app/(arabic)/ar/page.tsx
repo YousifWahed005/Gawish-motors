@@ -1,0 +1,5 @@
+import { LandingPage } from "@/components/landing-page";
+export const dynamic = "force-static";
+export default function Home() {
+  return <LandingPage locale="ar" />;
+}

@@ -1,0 +1,653 @@
+.nav-tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+body {
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+.theme-toggle {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    background 200ms,
+    transform 200ms;
+}
+.theme-toggle:hover {
+  transform: rotate(12deg);
+  background: var(--paper);
+}
+.language-switch {
+  justify-content: center;
+  padding-inline: 8px;
+  border-bottom: 1px solid var(--accent);
+}
+.nav nav {
+  gap: 22px;
+}
+.nav nav a {
+  position: relative;
+}
+.nav nav a::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 0;
+  background: var(--accent);
+  transition: width 220ms;
+}
+.nav nav a:hover::after {
+  width: 100%;
+}
+.hero {
+  padding-bottom: 50px;
+}
+.hero h1 span,
+.since-stamp strong {
+  color: var(--display-accent);
+}
+[data-theme="dark"] .button {
+  background: var(--night);
+  border-color: var(--brand-red);
+  color: var(--ink);
+}
+[data-theme="dark"] .button:hover {
+  background: var(--surface);
+}
+[data-theme="dark"] .admin-locales button[aria-pressed="true"] {
+  border-color: var(--accent);
+}
+.hero-bottom {
+  gap: 28px;
+  grid-template-columns: 29% 71%;
+  align-items: center;
+}
+.hero-car {
+  padding-top: 52px;
+  margin-inline-end: -60px;
+  margin-right: 0;
+}
+.hero-photo {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.hero-photo img {
+  width: 100%;
+  aspect-ratio: 1.65;
+  object-fit: cover;
+  margin: 0;
+  transition: transform 900ms var(--motion-ease);
+}
+.hero-photo:hover img {
+  transform: scale(1.035);
+}
+.hero-car figcaption {
+  margin-top: 16px;
+  margin-right: 0;
+  margin-inline-end: 60px;
+}
+.car-word {
+  top: 8px;
+  inset-inline-start: 10px;
+  left: auto;
+  font-size: var(--text-service);
+  opacity: 1;
+  color: var(--display-accent);
+  white-space: nowrap;
+}
+.model-picture {
+  padding: 0;
+  isolation: isolate;
+}
+.model-picture .badge {
+  position: absolute;
+  top: 15px;
+  inset-inline-start: 15px;
+  margin: 0;
+  z-index: 2;
+}
+.model-picture img {
+  width: 100%;
+  aspect-ratio: 1.35;
+  object-fit: cover;
+  display: block;
+  transition: transform 650ms var(--motion-ease);
+}
+.model:hover .model-picture img {
+  transform: scale(1.035);
+}
+.model-number {
+  display: none;
+}
+.photo-note {
+  font-size: var(--text-label);
+  margin-top: 28px;
+  max-width: 750px;
+}
+.offer-type {
+  white-space: pre-line;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  margin-bottom: 28px;
+  font-size: var(--heading);
+}
+.offer-art img {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1.4;
+  object-fit: cover;
+  display: block;
+}
+.offer-art .badge {
+  margin-bottom: 14px;
+}
+.offer-type {
+  margin-top: 10px;
+  font-size: var(--heading);
+  color: var(--on-dark);
+}
+.company-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 80px;
+  align-items: center;
+}
+.company-about > div > p:not(.eyebrow) {
+  max-width: 490px;
+  margin-top: 26px;
+}
+.about-photo {
+  overflow: hidden;
+}
+.about-photo img {
+  width: 100%;
+  aspect-ratio: 0.96;
+  object-fit: cover;
+  display: block;
+}
+.since-stamp {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 30px;
+}
+.since-stamp strong {
+  font-size: var(--text-stamp);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: var(--tracking);
+}
+.since-stamp span {
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.company-about .story {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  border-top: 1px solid var(--line);
+  padding-top: 34px;
+  align-items: start;
+}
+.company-about .story p {
+  margin: 0;
+  max-width: none;
+}
+.story h3 {
+  font-size: var(--text-service);
+}
+.purpose-section,
+.services-section,
+.contact-section {
+  background: var(--surface);
+  border-block: 1px solid var(--line);
+}
+.principle {
+  display: grid;
+  grid-template-columns: 45px 1fr 1.7fr;
+  gap: 26px;
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
+  align-items: start;
+}
+.principle h3 {
+  font-size: var(--text-service);
+}
+.row-number {
+  color: var(--accent);
+  font-size: var(--text-label);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.section-description {
+  max-width: 360px;
+  font-size: var(--text-detail);
+}
+.service-row {
+  display: grid;
+  grid-template-columns: 45px 1fr 1.4fr 30px;
+  gap: 26px;
+  align-items: start;
+  border-top: 1px solid var(--line);
+  padding: 30px 0;
+  transition:
+    padding-inline 250ms,
+    background 250ms;
+}
+.service-row h3 {
+  font-size: var(--text-service);
+}
+.service-row > svg {
+  color: var(--accent);
+}
+.service-row:hover {
+  padding-inline: 12px;
+  background: var(--paper);
+}
+.ownership {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+.ownership-list article {
+  display: flex;
+  gap: 25px;
+  border-top: 1px solid var(--line);
+  padding: 26px 0;
+}
+.ownership-list p {
+  margin-top: 15px;
+}
+.partners-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-block: 74px;
+  align-items: center;
+}
+.partners p {
+  margin-top: 25px;
+}
+.partners small {
+  display: block;
+  margin-block: 18px;
+  color: var(--dark-muted);
+}
+.partners .text-link {
+  border-color: var(--on-dark);
+}
+.partners .badge {
+  background: transparent;
+  color: var(--on-dark);
+  border-color: var(--dark-muted);
+}
+.reviews-description {
+  margin-bottom: 35px;
+  max-width: 750px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 100px;
+}
+.contact-grid > div > p:not(.eyebrow) {
+  margin-block: 25px;
+  max-width: 450px;
+}
+.contact-details > div {
+  display: flex;
+  gap: 22px;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.contact-details h3 {
+  font-size: var(--text-label);
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+.contact-details p {
+  white-space: pre-line;
+}
+.contact-details a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.contact-social {
+  flex-wrap: wrap;
+}
+.contact-details .phone-line {
+  display: flex;
+}
+.footer-bottom small {
+  margin-right: 0;
+  margin-inline-end: auto;
+}
+.dark .button.light-button {
+  border: 1px solid var(--on-dark);
+}
+[data-reveal] {
+  transition:
+    opacity var(--motion-duration) var(--motion-ease),
+    transform var(--motion-duration) var(--motion-ease);
+}
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(22px);
+}
+.reveal-pending:focus-within {
+  opacity: 1;
+  transform: none;
+}
+@keyframes hero-enter {
+  from {
+    opacity: 0.2;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero h1,
+.hero-copy,
+.hero-car {
+  animation: hero-enter 750ms var(--motion-ease) both;
+}
+.hero-copy {
+  animation-delay: 80ms;
+}
+.hero-car {
+  animation-delay: 130ms;
+}
+[dir="rtl"] body {
+  font-family: var(--font-arabic), var(--font-body), sans-serif;
+}
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3 {
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+[dir="rtl"] h1 {
+  font-size: var(--display-ar);
+}
+[dir="rtl"] .eyebrow,
+[dir="rtl"] .tiny,
+[dir="rtl"] .badge,
+[dir="rtl"] .brand span,
+[dir="rtl"] .brand small,
+[dir="rtl"] .hero-note,
+[dir="rtl"] .hero-car figcaption,
+[dir="rtl"] .quotes figcaption span {
+  letter-spacing: 0;
+}
+[dir="rtl"] .hero-car figcaption {
+  font-size: var(--text-eyebrow);
+}
+[dir="rtl"] .hero-note,
+[dir="rtl"] .brand small {
+  font-size: var(--text-eyebrow);
+}
+[dir="rtl"] .brand span {
+  font-size: var(--text-lg);
+}
+[dir="rtl"] .brand small {
+  font-size: var(--text-micro);
+}
+[dir="rtl"] .car-word {
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+[dir="rtl"] p {
+  line-height: 1.95;
+}
+[dir="rtl"] .since-stamp strong {
+  letter-spacing: 0;
+}
+[dir="rtl"] .button svg,
+[dir="rtl"] .text-link svg,
+[dir="rtl"] .service-row > svg {
+  transform: scaleX(-1);
+}
+.admin-locales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block: 24px;
+}
+.admin-locales button {
+  min-width: 100px;
+}
+.admin-locales button[aria-pressed="false"] {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.admin-section-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.admin-section-links a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  font-size: var(--text-label);
+}
+.admin-editor[dir="rtl"] {
+  font-family: var(--font-arabic), var(--font-body), sans-serif;
+}
+.admin-editor[dir="rtl"] h2,
+.admin-editor[dir="rtl"] h3 {
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.admin-toolbar {
+  position: sticky;
+  top: 12px;
+  z-index: 5;
+  background: var(--surface);
+  padding: 12px 0;
+}
+@media (max-width: 1100px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding-block: 20px;
+  }
+  .nav nav {
+    gap: 16px;
+  }
+  .brand small {
+    font-size: var(--text-micro);
+  }
+  .company-about,
+  .ownership,
+  .partners-inner,
+  .contact-grid {
+    gap: 40px;
+  }
+  .hero-bottom {
+    gap: 20px;
+    grid-template-columns: 35% 65%;
+  }
+  .hero-copy .button {
+    gap: 12px;
+  }
+}
+@media (max-width: 760px) {
+  .nav-tools {
+    margin-inline-start: auto;
+  }
+  .nav nav {
+    width: 100%;
+    order: 3;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .nav nav a {
+    gap: 0;
+  }
+  .hero-bottom {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .hero-car {
+    padding-top: 30px;
+    margin-inline-end: -20px;
+    margin-top: 42px;
+  }
+  .hero-car figcaption {
+    margin-inline-end: 20px;
+  }
+  .car-word {
+    top: 0;
+    font-size: var(--text-service);
+  }
+  .hero-photo img {
+    aspect-ratio: 1.45;
+  }
+  .model-picture img {
+    max-height: none;
+    object-fit: cover;
+  }
+  .company-about,
+  .ownership,
+  .partners-inner,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .company-about .story {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .about-photo img {
+    aspect-ratio: 1.35;
+  }
+  .principle {
+    grid-template-columns: 30px 1fr;
+    gap: 12px 18px;
+    padding-block: 25px;
+  }
+  .principle p {
+    grid-column: 2;
+  }
+  .service-row {
+    grid-template-columns: 30px 1fr 24px;
+    gap: 15px;
+  }
+  .service-row p {
+    grid-column: 2/4;
+  }
+  .service-row > svg {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .service-row:hover {
+    padding-inline: 0;
+  }
+  .section-description {
+    margin-top: 22px;
+  }
+  .offer-art img {
+    margin: 0;
+    width: 100%;
+  }
+  .offer-type {
+    font-size: var(--heading);
+    margin-top: 10px;
+  }
+  .partners-inner {
+    padding-block: 54px;
+  }
+  .ownership-list article {
+    padding-block: 22px;
+  }
+  [dir="rtl"] .brand span {
+    font-size: var(--text-base);
+  }
+  [dir="rtl"] .hero-note {
+    font-size: var(--text-label);
+  }
+  .hero-car figcaption {
+    font-size: var(--text-micro);
+  }
+}
+@media (max-width: 350px) {
+  .nav {
+    gap: 6px;
+  }
+  .brand span {
+    font-size: var(--text-label);
+  }
+  .brand small {
+    font-size: var(--text-nano);
+    display: none;
+  }
+  .nav-tools {
+    gap: 3px;
+  }
+  .nav-tools a {
+    padding-inline: 0;
+  }
+  .brand {
+    gap: 6px;
+  }
+  .theme-toggle {
+    width: 44px;
+    height: 44px;
+  }
+  .nav nav a {
+    font-size: var(--text-nav-mobile);
+  }
+  [dir="rtl"] .brand span {
+    font-size: var(--text-label);
+  }
+  [dir="rtl"] .brand small {
+    font-size: var(--text-nano);
+  }
+  .hero-car figcaption {
+    font-size: var(--text-micro);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
+  }
+  .hero h1,
+  .hero-copy,
+  .hero-car {
+    animation: none;
+  }
+  .hero-photo img,
+  .model-picture img,
+  .theme-toggle {
+    transition: none;
+  }
+}
